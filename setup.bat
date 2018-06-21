@@ -39,7 +39,7 @@ choco install -y ^
 choco install -y ^
   googlechrome ^
   firefox ^
-  firefox-dev --pre
+  REM firefox-dev --pre
 
 :: Development Tools
 choco install -y ^
