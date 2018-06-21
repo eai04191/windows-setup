@@ -49,6 +49,7 @@ choco install -y ^
   gitkraken ^
   winmerge ^
   hyper ^
+  mobaxterm ^
   charles4 ^
   postman
   REM unity
