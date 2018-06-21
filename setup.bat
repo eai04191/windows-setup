@@ -64,7 +64,8 @@ choco install -y ^
   musicbee ^
   gimp ^
   skyfonts ^
-  mp3tag
+  mp3tag ^
+  obs-studio
 
 :: Programing Languages
 choco install -y ^
