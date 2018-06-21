@@ -61,6 +61,7 @@ choco install -y ^
   youtube-dl ^
   imagemagick.app ^
   mpc-hc ^
+  musicbee ^
   gimp ^
   skyfonts ^
   mp3tag
