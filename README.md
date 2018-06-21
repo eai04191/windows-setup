@@ -1,4 +1,4 @@
 windows-setup
 ===
 
-`curl eai.sh/win | cmd` でガーッとやってくれるやつ。
+`curl -L eai.sh/win | cmd` でガーッとやってくれるやつ。
