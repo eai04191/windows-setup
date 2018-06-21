@@ -91,8 +91,23 @@ choco install -y ^
 "%ALLUSERSPROFILE%\chocolatey\bin\RefreshEnv.cmd"
 
 
-:: Install Matsuya
+:: ここから絶対いる
+
+:: 松屋
 gem install matsuya
+
+:: スナックのママ
+gem install snacknomama
+
+:: 性風俗
+go get -u github.com/YuheiNakasaka/sayhuuzoku
+
+:: posh-cowsay
+mkdir "C:\Windows\System32\WindowsPowerShell\v1.0\Modules\cowsay"
+curl https://raw.githubusercontent.com/kanej/posh-cowsay/master/cowsay.psm1 -o "C:\Windows\System32\WindowsPowerShell\v1.0\Modules\cowsay\cowsay.psm1"
+powershell -command "Import-Module cowsay"
+
+:: ここまで絶対いる
 
 
 :: Install Hyper-V, WSL
