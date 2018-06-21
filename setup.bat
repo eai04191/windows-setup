@@ -26,7 +26,8 @@ choco install -y ^
   cpu-z.install ^
   f.lux.install ^
   manictime.install ^
-  teamviewer
+  teamviewer ^
+  sizer
 
 :: Cloud Drives
 choco install -y ^
