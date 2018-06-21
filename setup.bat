@@ -71,7 +71,8 @@ choco install -y ^
 choco install -y ^
   python3 ^
   ruby ^
-  golang.install
+  golang.install ^
+  php
 
 :: Games Launcher
 choco install -y ^
