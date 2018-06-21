@@ -23,7 +23,8 @@ choco install -y ^
   ccleaner ^
   sharex ^
   openhardwaremonitor ^
-  cpu-z.install
+  cpu-z.install ^
+  f.lux.install
 
 :: Cloud Drives
 choco install -y ^
