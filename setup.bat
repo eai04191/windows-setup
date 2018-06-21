@@ -50,6 +50,7 @@ choco install -y ^
   winmerge ^
   hyper ^
   mobaxterm ^
+  wireshark ^
   charles4 ^
   postman
   REM unity
