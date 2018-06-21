@@ -24,7 +24,8 @@ choco install -y ^
   sharex ^
   openhardwaremonitor ^
   cpu-z.install ^
-  f.lux.install
+  f.lux.install ^
+  manictime.install
 
 :: Cloud Drives
 choco install -y ^
