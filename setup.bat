@@ -25,7 +25,8 @@ choco install -y ^
   openhardwaremonitor ^
   cpu-z.install ^
   f.lux.install ^
-  manictime.install
+  manictime.install ^
+  teamviewer
 
 :: Cloud Drives
 choco install -y ^
