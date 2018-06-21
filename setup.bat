@@ -46,6 +46,7 @@ choco install -y ^
   git.install ^
   nodejs.install ^
   vscode ^
+  gitkraken ^
   winmerge ^
   hyper ^
   charles4 ^
@@ -54,11 +55,11 @@ choco install -y ^
 
 :: Media
 choco install -y ^
+  ffmpeg ^
+  youtube-dl ^
+  imagemagick.app ^
   mpc-hc ^
   gimp ^
-  imagemagick.app ^
-  youtube-dl ^
-  ffmpeg ^
   skyfonts ^
   mp3tag
 
