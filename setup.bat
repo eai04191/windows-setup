@@ -45,6 +45,7 @@ choco install -y ^
 choco install -y ^
   git.install ^
   nodejs.install ^
+  visualstudio2017community ^
   vscode ^
   gitkraken ^
   winmerge ^
