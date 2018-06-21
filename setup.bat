@@ -92,8 +92,8 @@ gem install matsuya
 
 
 :: Install Hyper-V, WSL
-powershell -Command "Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All"
-powershell -Command "Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux"
+DISM /Online /Enable-Feature /All /FeatureName:Microsoft-Hyper-V /NoRestart
+DISM /Online /Enable-Feature /FeatureName:Microsoft-Windows-Subsystem-Linux /NoRestart
 
 
 :: Show Install Error
