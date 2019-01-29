@@ -27,7 +27,8 @@ choco install -y ^
   f.lux.install ^
   manictime.install ^
   teamviewer ^
-  sizer
+  sizer ^
+  sagethumbs
 
 :: Cloud Drives
 choco install -y ^
